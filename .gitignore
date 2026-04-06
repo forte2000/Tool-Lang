@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build_output/
+admin_dist_final/
+.DS_Store
+.gemini/
+.vscode/
+package-lock.json
+*.exe
+*.log

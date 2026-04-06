@@ -1,0 +1,21 @@
+{
+  "appId": "com.toollang.admin",
+  "productName": "ToolLang Admin",
+  "directories": {
+    "output": "admin_dist_final"
+  },
+  "files": [
+    "dist/admin.html",
+    "dist/assets/**/*",
+    "electron/admin-main.js",
+    "electron/preload.js",
+    "package.json"
+  ],
+  "extraMetadata": {
+    "main": "electron/admin-main.js"
+  },
+  "win": {
+    "target": "portable",
+    "artifactName": "${productName}_Master_Control_v${version}.${ext}"
+  }
+}
